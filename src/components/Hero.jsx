@@ -6,7 +6,7 @@ import move from '../assets/moveRight.svg'
 const Hero = () => {
   return (
     <>
-      <div className='grid md:grid-cols-2 gap-2 pt-10'>
+      <div className='grid md:grid-cols-2 gap-2 sm:pt-10 pt-5'>
         <div className='flex flex-col gap-4'>
           <h1 className='text-neutral-500 text-7xl'>
             See the NFT new world

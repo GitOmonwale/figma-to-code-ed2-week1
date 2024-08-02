@@ -23,9 +23,7 @@ export default {
       fontFamily:{
         'raleway':['Raleway', 'sans-serif'],
       },
-      backgroundImage:{
-        'CTA': "url('./src/assets/astronaut_3.png')",
-      }
+      
     },
   },
   plugins: [],

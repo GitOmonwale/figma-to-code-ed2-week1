@@ -14,7 +14,7 @@ const OurCollections = () => {
   return (
     <div className='py-10'>
       <h2 className='text-neutral-800 text-2xl font-bold mb-5'>Our collection</h2>
-      <div className='flex items-center justify-between flex-wrap'>
+      <div className='flex sm:items-center items-start gap-2 justify-between flex-col sm:flex-row'>
         <div className='flex gap-2 flex-wrap'>
           {
             Buttons.map((button, index) => (

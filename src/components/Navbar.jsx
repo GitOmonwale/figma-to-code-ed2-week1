@@ -42,7 +42,7 @@ const Navbar = () => {
                     <img src={logo} alt="image logo" className="w-10 h-10" />
                     <img src={close} alt="close" className="w-10 h-10 object-contain" onClick={() => setToggle(false)} />
                 </div>
-                <ul className="flex flex-col items-center">
+                <ul className="flex flex-col items-start gap-2">
                     {NavLinks.map((nav, index) => (
                         <li
                             key={nav.id}
@@ -52,7 +52,7 @@ const Navbar = () => {
                             <a href={`#${nav.id}`}>{nav.title}</a>
                         </li>
                     ))}
-                    <div className="md:hidden flex mt-5">
+                    <div className="md:hidden flex mt-6">
                     <button className="px-4 border-r-2 border-neutral-800 text-neutral-800">Sign up</button>
                     <button className="bg-neutral-800 rounded-3xl py-2 px-4 ml-10 text-white">Connect Wallet</button>
                     </div>

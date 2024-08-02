@@ -1,5 +1,4 @@
 import React from 'react'
-import '../index.css'
 import Button from './Button'
 import OurCollectionsCard from './OurCollectionsCard'
 import { Collections } from '../constants'
